@@ -880,9 +880,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-family: "Montserrat";
 }
 
-.content-pengumuman p{
+.content-pengumuman .pengumuman-diterima p{
   padding: 10px 0;
   color: rgb(7, 199, 7);
+  font-weight: 500;
+  font-family: "Poppins";
+}
+
+.content-pengumuman .pengumuman-ditolak p{
+  padding: 10px 0;
+  color: rgb(192, 0, 0);
   font-weight: 500;
   font-family: "Poppins";
 }
