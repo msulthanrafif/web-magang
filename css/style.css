@@ -476,11 +476,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #alur .container img{
-  align-items: center;
+  margin: 40px 0 0 15%;
 }
 
 @media (max-width: 768px) {
   #alur .alur-container{
+    margin: 0;
     padding-top: 15px;
     height: fit-content;
   }
@@ -504,7 +505,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 40px;
 }
 
-#contact .section-header p{
+#contact .section-header p {
   width: 80px;
   height: 3px;
   margin-left: 2px;
@@ -880,16 +881,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-family: "Montserrat";
 }
 
-.content-pengumuman .pengumuman-diterima p{
+.content-pengumuman p{
   padding: 10px 0;
   color: rgb(7, 199, 7);
-  font-weight: 500;
-  font-family: "Poppins";
-}
-
-.content-pengumuman .pengumuman-ditolak p{
-  padding: 10px 0;
-  color: rgb(192, 0, 0);
+  /* color: rgb(226, 2, 2); */
   font-weight: 500;
   font-family: "Poppins";
 }
@@ -917,7 +912,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 .image-box img{
   width: 100%;
   height: 100vh;
-  background-size: cover;
 }
 
 /* Daftar OPD */
