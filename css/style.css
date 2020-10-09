@@ -468,7 +468,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #alur .container{
-  width: fit-content;
+  width: 100%;
   height: fit-content;
   padding: 10px 30px 30px 30px;
   background-color: #fff;
@@ -1004,6 +1004,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   align-content: center;
   font-family: "Poppins";
   color: #505455;
+}
+
+.daftar-opd .choose-file h5 {
+  padding: 3px;
+  justify-content: center;
+  font-family: "Poppins";
+  color: #92999b;
 }
 
 .btn-daftar-opd {
